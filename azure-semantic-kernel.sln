@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6610B66F-B7D6-4057-8543-CF6DE36C1F06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureSemanticKernel.Api", "src\AzureSemanticKernel.Api\AzureSemanticKernel.Api.csproj", "{185AC38A-AF2C-4FE0-8B90-22831C2569F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_items", "_items", "{8DF44762-D734-DA5B-533F-8B5342A6C50C}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{185AC38A-AF2C-4FE0-8B90-22831C2569F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{185AC38A-AF2C-4FE0-8B90-22831C2569F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{185AC38A-AF2C-4FE0-8B90-22831C2569F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{185AC38A-AF2C-4FE0-8B90-22831C2569F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{185AC38A-AF2C-4FE0-8B90-22831C2569F9} = {6610B66F-B7D6-4057-8543-CF6DE36C1F06}
+	EndGlobalSection
+EndGlobal
